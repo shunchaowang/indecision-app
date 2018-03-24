@@ -22,5 +22,13 @@
   "bugs": {
     "url": "https://github.com/shunchaowang/boilerplate-react/issues"
   },
-  "homepage": "https://github.com/shunchaowang/boilerplate-react#readme"
+  "homepage": "https://github.com/shunchaowang/boilerplate-react#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "webpack": "^4.2.0"
+  }
 }
