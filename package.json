@@ -1,0 +1,26 @@
+{
+  "name": "boilerplate-react",
+  "version": "1.0.0",
+  "description": "Boilerplate for react with webpack and babel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shunchaowang/boilerplate-react.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "babel",
+    "node",
+    "npm"
+  ],
+  "author": "Shunchao Wang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shunchaowang/boilerplate-react/issues"
+  },
+  "homepage": "https://github.com/shunchaowang/boilerplate-react#readme"
+}
