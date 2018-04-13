@@ -7,17 +7,9 @@ import Action from './Action';
 
 export default class IndecisionApp extends React.Component {
 
-    constructor(props) {
-        super(props);
-
-        this.state = {
-            options: []
-        };
-
-        this.removeAllOptions = this.removeAllOptions.bind(this);
-        this.pickOption = this.pickOption.bind(this);
-        this.addOption = this.addOption.bind(this);
-    }
+    state = {
+        options: []
+    };
 
     render() {
         const title = 'Indecision';
@@ -38,13 +30,13 @@ export default class IndecisionApp extends React.Component {
         );
     }
 
-    pickOption() {
+    pickOption = () => {
         const num = Math.floor(Math.random() * this.state.options.length);
         const option = this.state.options[num];
         alert("option picked: " + option);
-    }
+    };
 
-    addOption(option) {
+    addOption = (option) => {
         if (!option) {
             return 'Enter valid value to add item';
         } else if (this.state.options.indexOf(option) > -1) {
@@ -55,13 +47,13 @@ export default class IndecisionApp extends React.Component {
             options: prevState.options.concat(option)
         }));
 
-    }
+    };
 
-    removeAllOptions() {
+    removeAllOptions = () => {
         this.setState(() => {
             return {
                 options: []
             }
         });
-    }
+    };
 }
