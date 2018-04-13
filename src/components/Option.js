@@ -6,9 +6,11 @@ const Option = (props) => {
                 <li>
                     {props.option}
                     <button
-                            onClick={(e) => {
-                                props.deleteOption(props.option)
-                            }}
+                            onClick={
+                                () => {
+                                    props.deleteOption(props.option)
+                                }
+                            }
                     >
                         Remove
                     </button>
