@@ -24,8 +24,11 @@ export default class IndecisionApp extends React.Component {
                     <Options
                             options={this.state.options}
                             handleRemoveAll={this.removeAllOptions}
+                            handleDeleteOption={this.removeSingleOption}
                     />
-                    <AddOption handleAddOption={this.addOption}/>
+                    <AddOption
+                            handleAddOption={this.addOption}
+                    />
                 </div>
         );
     }
@@ -47,6 +50,14 @@ export default class IndecisionApp extends React.Component {
             options: prevState.options.concat(option)
         }));
 
+    };
+
+    removeSingleOption = (option) => {
+        this.setState((prevState) => {
+            return {
+                options: prevState.options.filter((o) => (option !== o))
+            };
+        });
     };
 
     removeAllOptions = () => {
