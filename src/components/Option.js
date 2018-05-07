@@ -5,6 +5,7 @@ const Option = (props) => (
             <li>
                 {props.option}
                 <button
+                        className="button button--link"
                         onClick={
                             () => {
                                 props.deleteOption(props.option)
