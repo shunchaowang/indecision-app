@@ -24,10 +24,11 @@ const Options = (props) => (
             </p>
             }
             {
-                props.options.map((o) => (
+                props.options.map((o, index) => (
                         <Option
                                 key={o}
                                 option={o}
+                                count={index + 1}
                                 deleteOption={props.handleDeleteOption}
                         />
                 ))
