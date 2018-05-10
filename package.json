@@ -1,7 +1,7 @@
 {
-    "name": "boilerplate-react",
+    "name": "indecision-app",
     "version": "1.0.0",
-    "description": "Boilerplate for react with webpack and babel",
+    "description": "indecision app based on react with webpack and babel",
     "main": "index.js",
     "scripts": {
         "serve": "live-server public/",
@@ -10,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/shunchaowang/boilerplate-react.git"
+        "url": "git+https://github.com/shunchaowang/indecision-app.git"
     },
     "keywords": [
         "react",
@@ -22,9 +22,9 @@
     "author": "Shunchao Wang",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/shunchaowang/boilerplate-react/issues"
+        "url": "https://github.com/shunchaowang/indecision-app/issues"
     },
-    "homepage": "https://github.com/shunchaowang/boilerplate-react#readme",
+    "homepage": "https://github.com/shunchaowang/indecision-app#readme",
     "dependencies": {
         "normalize.css": "^8.0.0",
         "react": "^16.2.0",

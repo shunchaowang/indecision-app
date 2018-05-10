@@ -1,2 +1,2 @@
-# boilerplate-react
-Boilerplate for react with webpack and babel
+# Indecision App based on React
+Indecision app using react with webpack and babel
